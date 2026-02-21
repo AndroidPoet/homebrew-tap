@@ -10,24 +10,24 @@ class PlayconsoleCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_darwin_arm64.tar.gz"
-      sha256 "c74a0dd9ebb0f3d283cd9952df9ac9abc2573c0cb187b51620e20365e2fbbc23"
+      sha256 "0c3728df7dae771634401e37b64e31b4a7497b8ac12306211893e7611b34ee32"
     end
 
     on_intel do
       url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_darwin_amd64.tar.gz"
-      sha256 "df04ef00b615e0ec50a9879d74ec3f0a56e359a0e7b2f90d6db15b6e3cd9142b"
+      sha256 "0fbe5ebcdd928f7a04aa4f619ebfb5450f1b9c4dd1d767febd6519c70cb4a33c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_linux_arm64.tar.gz"
-      sha256 "ff9408eb5a1ad4cca7d4eb893ec0d9ef5bebe45d7c049be1ae06c14c0a6f92be"
+      sha256 "51c406d2f2f73cbe4da281328c707f0f6d8c84185d5bd2787ad7e8e315439348"
     end
 
     on_intel do
       url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_linux_amd64.tar.gz"
-      sha256 "9428e1324e327fd7af2ef010ce9a0efb50848872f7dcb161edf975f9beed7529"
+      sha256 "4df17e755c062bbffbfe3e38febc86552c92eb3022db64cdee2b0d7ebdd3ac1f"
     end
   end
 
