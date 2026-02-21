@@ -4,30 +4,30 @@
 class PlayconsoleCli < Formula
   desc "Fast, lightweight, and scriptable CLI for Google Play Console"
   homepage "https://github.com/AndroidPoet/playconsole-cli"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_darwin_arm64.tar.gz"
-      sha256 "0c3728df7dae771634401e37b64e31b4a7497b8ac12306211893e7611b34ee32"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.3.0/playconsole-cli_0.3.0_darwin_arm64.tar.gz"
+      sha256 "fac5a235090be39f20a608773d4e96f6fcdf91a9dc37f0f0fdc562c6b2c624e4"
     end
 
     on_intel do
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_darwin_amd64.tar.gz"
-      sha256 "0fbe5ebcdd928f7a04aa4f619ebfb5450f1b9c4dd1d767febd6519c70cb4a33c"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.3.0/playconsole-cli_0.3.0_darwin_amd64.tar.gz"
+      sha256 "6351efdd6ecc10a82e6cfd0291fdefc280a82ae8236e9fc19310a44243327b88"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_linux_arm64.tar.gz"
-      sha256 "51c406d2f2f73cbe4da281328c707f0f6d8c84185d5bd2787ad7e8e315439348"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.3.0/playconsole-cli_0.3.0_linux_arm64.tar.gz"
+      sha256 "2111cdf114eb58d3cd0e2629756ca338373684aaff65d6d143e741a5ddbd8ef8"
     end
 
     on_intel do
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.2.0/playconsole-cli_0.2.0_linux_amd64.tar.gz"
-      sha256 "4df17e755c062bbffbfe3e38febc86552c92eb3022db64cdee2b0d7ebdd3ac1f"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.3.0/playconsole-cli_0.3.0_linux_amd64.tar.gz"
+      sha256 "3fb06a4bddf55d5cf23799794588502ee271b364ea61702cb1c4290cd5d2fa9a"
     end
   end
 
