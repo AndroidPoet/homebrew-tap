@@ -5,13 +5,13 @@
 class RevenuecatCli < Formula
   desc "Fast, lightweight, and scriptable CLI for RevenueCat"
   homepage "https://github.com/AndroidPoet/revenuecat-cli"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.0/revenuecat-cli_0.2.0_darwin_amd64.tar.gz"
-      sha256 "39d13d6a76d3822b1ac38b8c67e6ef14855012afe8ca465bfbf68ee9fefc6df2"
+      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.1/revenuecat-cli_0.2.1_darwin_amd64.tar.gz"
+      sha256 "9cf998f36a5e8326a929eb1eb59d596e552f3d57e458f3deebfa2f8f0f116fb1"
 
       define_method(:install) do
         bin.install "revenuecat-cli"
@@ -19,8 +19,8 @@ class RevenuecatCli < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.0/revenuecat-cli_0.2.0_darwin_arm64.tar.gz"
-      sha256 "579fac8d37cb511c3ba4ab578118f5579ec616178afc09d5cff993165d71e91a"
+      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.1/revenuecat-cli_0.2.1_darwin_arm64.tar.gz"
+      sha256 "c81eba2f6fd349bd743cbdc9898bb8636d32138df023988e181614b4f2b07ba8"
 
       define_method(:install) do
         bin.install "revenuecat-cli"
@@ -31,16 +31,16 @@ class RevenuecatCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.0/revenuecat-cli_0.2.0_linux_amd64.tar.gz"
-      sha256 "d5f9d731522ff502ca38b4fecf2c92922a789be6d692d980a75d2fc5bc9406e3"
+      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.1/revenuecat-cli_0.2.1_linux_amd64.tar.gz"
+      sha256 "ad3ca72b7bb473c7d7be49ffe34f7187b991a3c7cace773a67a7c09d02edc126"
       define_method(:install) do
         bin.install "revenuecat-cli"
         bin.install_symlink "revenuecat-cli" => "rc"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.0/revenuecat-cli_0.2.0_linux_arm64.tar.gz"
-      sha256 "2513f2ee06e0da56b64cff8edf057c3042a1c1cc19aef71940d40e34b58b522f"
+      url "https://github.com/AndroidPoet/revenuecat-cli/releases/download/v0.2.1/revenuecat-cli_0.2.1_linux_arm64.tar.gz"
+      sha256 "3679b66971feaf6ebba23f862dd1c782787bb19472079f92f186f8d5bf532e9a"
       define_method(:install) do
         bin.install "revenuecat-cli"
         bin.install_symlink "revenuecat-cli" => "rc"
