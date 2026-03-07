@@ -5,13 +5,13 @@
 class PlayconsoleCli < Formula
   desc "Fast, lightweight, and scriptable CLI for Google Play Console"
   homepage "https://github.com/AndroidPoet/playconsole-cli"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.4.1/playconsole-cli_0.4.1_darwin_amd64.tar.gz"
-      sha256 "c18d5b216a348c1044b8c91c2125e87f8d6c4eb2e9f685407e55122aa4ac51e4"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.0/playconsole-cli_0.5.0_darwin_amd64.tar.gz"
+      sha256 "6c1b1a3cd24cab4004a37626a1368d94ac38019191ea42d6176d3763a123a5f7"
 
       define_method(:install) do
         bin.install "playconsole-cli"
@@ -19,8 +19,8 @@ class PlayconsoleCli < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.4.1/playconsole-cli_0.4.1_darwin_arm64.tar.gz"
-      sha256 "6087be85be7ad431ca956da7b6051f81e377aa7a950da5bc179dc0f8a98d33da"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.0/playconsole-cli_0.5.0_darwin_arm64.tar.gz"
+      sha256 "6bbcd2b6904056be0246413edc14988c3ff8ed2f84c9e37cf27048e4edafdabc"
 
       define_method(:install) do
         bin.install "playconsole-cli"
@@ -31,16 +31,16 @@ class PlayconsoleCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.4.1/playconsole-cli_0.4.1_linux_amd64.tar.gz"
-      sha256 "94e272ccc7167cff25f9295fc71243fc4ea8dc05396a80964176bebb6d66e04f"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.0/playconsole-cli_0.5.0_linux_amd64.tar.gz"
+      sha256 "9b9ca3edc76f9ec6474b73929e8eebda8dc84fe2ae5d640c755e7b09fbb6b60e"
       define_method(:install) do
         bin.install "playconsole-cli"
         bin.install_symlink "playconsole-cli" => "gpc"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.4.1/playconsole-cli_0.4.1_linux_arm64.tar.gz"
-      sha256 "04c021825f7cbb72b68737c95bcc7f429795896e2841b8d0668f31491d67972c"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.0/playconsole-cli_0.5.0_linux_arm64.tar.gz"
+      sha256 "03bccff708d994fce6c2f1c080c78331a397b8e9618bb9a53837971fc8633ad0"
       define_method(:install) do
         bin.install "playconsole-cli"
         bin.install_symlink "playconsole-cli" => "gpc"
