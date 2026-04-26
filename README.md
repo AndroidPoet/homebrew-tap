@@ -6,18 +6,21 @@ Homebrew formulae for AndroidPoet tools.
 
 ```bash
 brew tap AndroidPoet/tap
-brew install gpc
+brew install playconsole-cli
 ```
+
+*Note: `gpc` is also available as an alias.*
 
 ## Formulae
 
 | Formula | Description |
 |---------|-------------|
-| `gpc` | Fast, lightweight CLI for Google Play Console |
+| `playconsole-cli` | Fast, lightweight CLI for Google Play Console |
+| `gpc` | Alias for playconsole-cli |
 
 ## Update
 
 ```bash
 brew update
-brew upgrade gpc
+brew upgrade playconsole-cli
 ```
