@@ -4,13 +4,13 @@
 class Gpc < Formula
   desc "Fast, lightweight CLI for Google Play Console"
   homepage "https://github.com/AndroidPoet/playconsole-cli"
-  version "0.5.1"
+  version "0.5.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.1/playconsole-cli_0.5.1_darwin_arm64.tar.gz"
-      sha256 "fcdaba4cfd6b00a8c72b8f333b4909729a528c0df559c58a00370ee3e82060b7"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.2/playconsole-cli_0.5.2_darwin_arm64.tar.gz"
+      sha256 "2028732f9e3576b1b67c7a15f686b574b51960af9b3c24dfe8102ad0dd1da7c3"
 
       def install
         bin.install "playconsole-cli" => "gpc"
@@ -18,8 +18,8 @@ class Gpc < Formula
     end
 
     on_intel do
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.1/playconsole-cli_0.5.1_darwin_amd64.tar.gz"
-      sha256 "c9f699b19feb4ebc87465d9f413da632fea1adaa91e85beb6ae5d676b4db2bab"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.2/playconsole-cli_0.5.2_darwin_amd64.tar.gz"
+      sha256 "64e6761afee1cedcc595f49ee37dfaabe8b333794b0945541c84221d8a0dd49d"
 
       def install
         bin.install "playconsole-cli" => "gpc"
