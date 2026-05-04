@@ -16,6 +16,7 @@ brew install playconsole-cli
 | Formula | Description |
 |---------|-------------|
 | `playconsole-cli` | Fast, lightweight CLI for Google Play Console |
+| `cu-cli` | Fast, lightweight ClickUp CLI for managing tasks and workspaces |
 | `gpc` | Alias for playconsole-cli |
 
 ## Update
