@@ -5,21 +5,21 @@
 class Gpc < Formula
   desc "Alias for playconsole-cli"
   homepage "https://github.com/AndroidPoet/playconsole-cli"
-  version "0.5.12"
+  version "0.5.13"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.12/playconsole-cli_0.5.12_darwin_amd64.tar.gz"
-      sha256 "28e7c686e03f8e942ef1258a5acd968e673e87cd3304694ea9c40e5edd170b59"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.13/playconsole-cli_0.5.13_darwin_amd64.tar.gz"
+      sha256 "adde624748ea8ef738a26da29c22bdf27f34b782900a898060b0bc60dd48a952"
 
       def install
         bin.install "playconsole-cli" => "gpc"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.12/playconsole-cli_0.5.12_darwin_arm64.tar.gz"
-      sha256 "623d1914d92f1d0fa6662703e50ed6ad7d95fe7d769fa769c1dfbfc77a112a50"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.13/playconsole-cli_0.5.13_darwin_arm64.tar.gz"
+      sha256 "33698f3b6916c0e58269736fdc866da06b707a4a3f570e6a61b3dc4c69d7ca6e"
 
       def install
         bin.install "playconsole-cli" => "gpc"
@@ -29,15 +29,15 @@ class Gpc < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.12/playconsole-cli_0.5.12_linux_amd64.tar.gz"
-      sha256 "ada5bed7204192bbdc23ad61ab3a48c18cbeb86fb85a0e471b49fa464a4411c8"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.13/playconsole-cli_0.5.13_linux_amd64.tar.gz"
+      sha256 "18acadf73e33a71913d9335b92dc1b93cb4093b05fdad494521d6b4ed99dd794"
       def install
         bin.install "playconsole-cli" => "gpc"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.12/playconsole-cli_0.5.12_linux_arm64.tar.gz"
-      sha256 "4cb6f1d68bd89be786e35963b42b946623352abcec840ac79ff59ef22bcbdd1f"
+      url "https://github.com/AndroidPoet/playconsole-cli/releases/download/v0.5.13/playconsole-cli_0.5.13_linux_arm64.tar.gz"
+      sha256 "134211ac0dba88c91dcd29925f2643af5854af2de76470df6d2b7dcca6470888"
       def install
         bin.install "playconsole-cli" => "gpc"
       end
